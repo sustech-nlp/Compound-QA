@@ -1,9 +1,16 @@
 
 # Compound-QA Dataset
 
-**Summary**
+## Overview
 
 Compound-QA is a benchmark designed to evaluate LLM capabilities across three dimensions: **Knowledge**, **Reasoning**, and **Understanding**. Each dimension features five distinct question types, including *Factual-Statement*, *Cause-and-Effect*, *Hypothetical-Analysis*, *Comparison-and-Selection*, and *Evaluation-and-Suggestion*.
+
+
+
+<!-- 示例图片位置 -->
+![Non-compound vs Compound Questions](path/to/your_figure_examples.png)
+*Examples of non-compound (left) and compound (right) questions: the former poses multiple questions across turns, while the latter combines them within a single turn.*
+
 
 ---
 
@@ -45,6 +52,21 @@ Example JSON record:
   "com_reference": "<reference answer covering all sub-questions>"
 }
 ```
+---
 
+## Citation
 
+If you use the Compound-QA dataset or find our work useful, please cite our paper:
+
+```bibtex
+@misc{hou2024compoundqabenchmarkevaluatingllms,
+      title={Compound-QA: A Benchmark for Evaluating LLMs on Compound Questions}, 
+      author={Yutao Hou and Yajing Luo and Zhiwen Ruan and Hongru Wang and Weifeng Ge and Yun Chen and Guanhua Chen},
+      year={2024},
+      eprint={2411.10163},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2411.10163}, 
+}
+```
 
