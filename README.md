@@ -46,7 +46,7 @@ Example JSON record:
 
 ```json
 {
-  "ID": "pubmed_qa_1",
+  "ID": "xxx_1",
   "context": "<optional background or passage>",
   "com_question": "<compound question>",
   "com_reference": "<reference answer covering all sub-questions>"
