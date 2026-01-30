@@ -84,10 +84,10 @@ Example JSON record:
 If you use the Compound-QA dataset or find our work useful, please cite our paper:
 
 ```bibtex
-@misc{hou2024compoundqabenchmarkevaluatingllms,
+@misc{hou2026compoundqabenchmarkevaluatingllms,
       title={Compound-QA: A Benchmark for Evaluating LLMs on Compound Questions}, 
       author={Yutao Hou and Yajing Luo and Zhiwen Ruan and Hongru Wang and Weifeng Ge and Yun Chen and Guanhua Chen},
-      year={2024},
+      year={2026},
       eprint={2411.10163},
       archivePrefix={arXiv},
       primaryClass={cs.CL},
